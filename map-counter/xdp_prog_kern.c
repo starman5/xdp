@@ -1,4 +1,4 @@
-#include "../lib/libbpf/src/bpf.h"
+#include <linux/bpf.h>
 #include "../lib/libbpf/src/bpf_helpers.h"
 
 #include "common_kern_user.h" /* defines: struct datarec; */
