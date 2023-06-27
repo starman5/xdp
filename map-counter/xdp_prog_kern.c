@@ -1,3 +1,8 @@
+#include "../lib/libbpf/src/bpf.h"
+#include "../lib/libbpf/src/bpf_helpers.h"
+
+#include "common_kern_user.h" /* defines: struct datarec; */
+
 // Define a BPF map
 struct {
     __uint(type, BPF_MAP_TYPE_ARRAY);

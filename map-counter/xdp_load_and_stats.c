@@ -11,9 +11,9 @@ static const char *__doc__ = "XDP loader and stats program\n"
 #include <unistd.h>
 #include <time.h>
 
-#include <bpf/bpf.h>
-#include <bpf/libbpf.h>
-#include <xdp/libxdp.h>
+#include "../lib/libbpf/src/bpf.h"
+#include "../lib/libbpf/src/libbpf.h"
+#include "../lib/xdp-tools/headers/xdp/libxdp.h"
 
 #include <net/if.h>
 #include <linux/if_link.h> /* depend on kernel-headers installed */
